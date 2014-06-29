@@ -1,0 +1,2 @@
+{"ts":1404065528219,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"zahlwortJS\n==========\n\nLibrary for replacing numbers into spell out words in JavaScript\n"]],"start1":0,"start2":0,"length1":0,"length2":88}]],"length":88}
+{"contributors":[],"silentsave":false,"ts":1404065577114,"patch":[[{"diffs":[[0,"ers "],[-1,"into spell out"],[1,"with written-out GERMAN"],[0," wor"]],"start1":49,"start2":49,"length1":22,"length2":31},{"diffs":[[0,"aScript\n"],[1,"\n\n"]],"start1":89,"start2":89,"length1":8,"length2":10}]],"length":99,"saved":false}

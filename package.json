@@ -1,0 +1,39 @@
+{
+  "name": "zahlwort",
+  "version": "0.0.1",
+  "description": "Library for replacing numbers with written-out GERMAN words / Bibliothek zum Ausschreiben von Zahlen als deutsche Zahlwörter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terehov/zahlwortJS.git"
+  },
+  "keywords": [
+    "locale",
+    "i18n",
+    "locale-js",
+    "number",
+    "german",
+    "Deutsch",
+    "DigitalWerft",
+    "util",
+    "utility",
+    "currency",
+    "euro",
+    "zahlwort",
+    "zahlenwort",
+    "ausschreiben"
+  ],
+  "author": "Eugene Terehov <opensource@terehov.de> (http://terehov.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terehov/zahlwortJS/issues"
+  },
+  "homepage": "https://github.com/terehov/zahlwortJS",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1"
+  }
+}
