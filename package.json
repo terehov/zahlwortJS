@@ -1,6 +1,6 @@
 {
   "name": "zahlwort",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Library for replacing numbers with written-out GERMAN words / Bibliothek zum Ausschreiben von Zahlen als deutsche Zahlwörter.",
   "main": "index.js",
   "scripts": {
