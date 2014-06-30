@@ -26,3 +26,4 @@ node_modules
 
 # Cloud9
 .c9revisions
+.settings

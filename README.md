@@ -21,3 +21,53 @@ console.log(zahlwort(110, true));
 console.log(zahlwort(110, true, ["Dollar", "Cent"]));
 ```
 
+## Beispiele:
+> eins
+> ein Euro
+> zwei
+> zwei Euro
+> fünf Komma fünf
+> fünf Euro und fünf Cent
+> dreizehn
+> dreizehn Euro
+> vierzig Komma vierzig
+> vierzig Euro und vierzig Cent
+> einundvierzig Komma einundvierzig
+> einundvierzig Euro und einundvierzig Cent
+> fünfundfünfzig Komma fünfundfünfzig
+> fünfundfünfzig Euro und fünfundfünfzig Cent
+> sechsundsechzig
+> sechsundsechzig Euro
+> neunundneunzig
+> neunundneunzig Euro
+> einhundert
+> einhundert Euro
+> einhunderteins
+> einhundertein Euro
+> einstausend
+> eintausend Euro
+> zehntausend
+> zehntausend Euro
+> zehntausendeins
+> zehntausendein Euro
+> einhunderttausend
+> einhunderttausend Euro
+> einhunderttausendeins
+> einhunderttausendein Euro
+> eine Million
+> eine Million Euro
+> zwei Millionen
+> zwei Millionen Euro
+> zwei Millionen und eins
+> zwei Millionen und ein Euro
+> drei Millionen und eins
+> drei Millionen und ein Euro
+> zehn Millionen
+> zehn Millionen Euro
+> zwanzig Millionen und eins
+> zwanzig Millionen und ein Euro
+> dreißig Millionen und dreihundertelf
+> dreißig Millionen und dreihundertelf Euro
+> einhundert Millionen und Komma achtundsiebzig
+> einhundert Millionen und Euro und achtundsiebzig Cent 
+

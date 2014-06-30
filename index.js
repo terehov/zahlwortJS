@@ -44,7 +44,7 @@ module.exports = function(pNum, pIsCurrency, pCurrency){
 				var unitSuffix = (fullNumber === 1)? "" : "en";
 				unitSuffix += (returnStr === currency)? "": " und ";
 				
-				returnStr = convertToHundreds(fullNumber) + numberSuffix + "" + units[i - 1] + unitSuffix + "" + returnStr;
+				returnStr = convertToHundreds(fullNumber, true) + numberSuffix + "" + units[i - 1] + unitSuffix + "" + returnStr;
 			}
 			else
 				returnStr = convertToHundreds(fullNumber) + "" + returnStr;
@@ -58,10 +58,11 @@ module.exports = function(pNum, pIsCurrency, pCurrency){
 
 
 	// ---- helper functions -------	
-	function convertToHundreds(pNum){
+	function convertToHundreds(pNum, pMoreThanAMillionPrefix){
 		var num, numStr;
 		var returnStr = "";
 		var helperToSwitchLastTwoDigits = 0;
+		pMoreThanAMillionPrefix = !(pMoreThanAMillionPrefix == null);
 
 		pNum %= 1000;
 		/* Hundreds. */
@@ -96,7 +97,7 @@ module.exports = function(pNum, pIsCurrency, pCurrency){
 		if (helperToSwitchLastTwoDigits == 0){
 			if (pNum > 0){
 				num = Math.floor(pNum);
-				if(pCurrency || num != 1)
+				if(pCurrency || num != 1 || pMoreThanAMillionPrefix)
 					returnStr += ones[num];
 				else
 					returnStr += oneN;
@@ -114,5 +115,5 @@ module.exports = function(pNum, pIsCurrency, pCurrency){
 	  return +mixed_var === mixed_var && (!isFinite(mixed_var) || !! (mixed_var % 1));
 	};
 
-	return returnStr;
+	return returnStr.replace("  ", " ");
 };
